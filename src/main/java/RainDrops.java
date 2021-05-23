@@ -1,6 +1,6 @@
 public class RainDrops {
 	public String translate(int number) {
-		return "Hello, world!";
+		return Integer.toString(number);
 	}
 
 }
