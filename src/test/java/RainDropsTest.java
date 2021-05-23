@@ -45,10 +45,14 @@ public class RainDropsTest {
 	}
 
 	/* Test factors of 3 and 5 */
-
 	@Test
 	public void numberIs255() {
-	
 		assertEquals("PlingPlang", rainDrops.translate(255));
+	}
+
+	/* Test factors of 7 */
+	@Test
+	public void numberIs7() {
+		assertEquals("Plong", rainDrops.translate(7));
 	}
 }
