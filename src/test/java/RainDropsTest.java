@@ -11,6 +11,7 @@ public class RainDropsTest {
 		rainDrops = new RainDrops();
 	}
 
+	/* Test factors of 3 */
 	@Test
 	public void NumberGivenis9ReturnsPling() {
 		assertEquals("Pling", rainDrops.translate(9));
@@ -21,6 +22,7 @@ public class RainDropsTest {
 		assertEquals("Pling", rainDrops.translate(27));
 	}
 
+	/* Test other */
 	@Test
 	public void numerIsOne() {
 		assertEquals("1", rainDrops.translate(1));
@@ -30,4 +32,11 @@ public class RainDropsTest {
 	public void numberIs11() {
 		assertEquals("11", rainDrops.translate(11));
 	}
+
+	/* Test factors of 5 */
+	@Test
+	public void numberIs5() {
+		assertEquals("Plang", rainDrops.translate(5));
+	}
+
 }
