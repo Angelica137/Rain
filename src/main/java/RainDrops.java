@@ -1,6 +1,9 @@
 public class RainDrops {
 	public String translate(int number) {
-		return Integer.toString(number);
+		if (number % 3 == 0) {
+			return "Pling";
+		} else {
+			return Integer.toString(number);
+		}
 	}
-
 }
