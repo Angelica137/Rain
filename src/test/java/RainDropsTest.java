@@ -55,4 +55,9 @@ public class RainDropsTest {
 	public void numberIs7() {
 		assertEquals("Plong", rainDrops.translate(7));
 	}
+
+	@Test
+	public void numberIs77() {
+		assertEquals("Plong", rainDrops.translate(77));
+	}
 }
