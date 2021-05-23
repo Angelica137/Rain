@@ -25,4 +25,9 @@ public class RainDropsTest {
 	public void numerIsOne() {
 		assertEquals("1", rainDrops.translate(1));
 	}
+
+	@Test
+	public void numberIs11() {
+		assertEquals("11", rainDrops.translate(11));
+	}
 }
