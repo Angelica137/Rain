@@ -1,5 +1,5 @@
 public class RainDrops {
-	public String sayHello() {
+	public String translate(int number) {
 		return "Hello, world!";
 	}
 
