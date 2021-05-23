@@ -12,8 +12,13 @@ public class RainDropsTest {
 	}
 
 	@Test
-	public void testThattranslateReturnsPlingWhenFactorOfThree() {
+	public void NumberGivenis9ReturnsPling() {
 		assertEquals("Pling", rainDrops.translate(9));
+	}
+
+	@Test
+	public void NumberGivenis27ReturnsPling() {
+		assertEquals("Pling", rainDrops.translate(27));
 	}
 
 	@Test
