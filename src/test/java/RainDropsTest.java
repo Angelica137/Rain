@@ -60,4 +60,10 @@ public class RainDropsTest {
 	public void numberIs77() {
 		assertEquals("Plong", rainDrops.translate(77));
 	}
+
+	/* Test factors of 3 and 7 */
+	@Test
+	public void numberIs21() {
+		assertEquals("PlingPlong", rainDrops.translate(21));
+	}
 }
